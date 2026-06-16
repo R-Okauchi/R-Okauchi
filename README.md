@@ -63,6 +63,12 @@ I work across the whole pipeline — from data and models to the software that s
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
+**Robotics & Sim**
+
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
+![MuJoCo](https://img.shields.io/badge/MuJoCo-2E7D32?style=flat)
+&nbsp;+ operasim · gRPC
+
 **Cloud & Infra**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
