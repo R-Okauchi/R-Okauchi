@@ -1,24 +1,24 @@
-# Hi, I'm Ryota Okauchi (岡内 亮太) 👋
+# Ryota Okauchi (岡内 亮太) 👋
 
-**Graduate researcher in civil engineering @ The University of Tokyo**
+**Master's student, Civil Engineering @ The University of Tokyo** · ex-AKARI Inc. (PM / Algorithm & Software Engineer)
 
-_Previously Project Manager · Algorithm & Software Engineer at AKARI Inc. (燈株式会社)_
-
-Working where **formal methods and machine learning meet civil & urban infrastructure** — research that actually ships, from uncertainty-aware spatial models to production-grade web apps and HPC pipelines.
+I take AI out of the lab and into the field. I build **multi-agent systems and LLM/agent pipelines** for real, physical, high-stakes domains — autonomous construction machinery, national infrastructure data, energy markets — and ship them end-to-end, from messy data to production APIs, web apps, and HPC.
 
 ---
 
-## 🔬 Research
+## 🤖 What I build
 
-**My main focus is formal methods for multi-agent coordination** — machine-checked (TLA⁺) protocols for fleets of cooperating autonomous construction machinery, proving safety, deadlock-freedom, and correct hand-overs *before* anything moves on site.
+**Agentic systems for the physical world — my main focus.**
+I'm building [**CAP — Cooperative Agent Protocol**](https://github.com/cooperative-agent-protocol) *(open-sourcing soon)*: a multi-agent platform that lets fleets of autonomous construction machines cooperate on a worksite. An LLM **site agent** (Google **Gemini** / Claude) turns natural-language goals into work orders; per-machine agents (**LangGraph + LangChain** tool-calling over a deterministic safety layer) carry them out; and the coordination protocol is **formally verified in TLA⁺** and validated in a **ROS2 physics simulator** before it ever touches real equipment. A genuinely new application domain, built to production standards — full-stack **FastAPI + React**, containerized, and deployed on **Kubernetes**.
 
-Alongside this, I work across **civil / urban informatics** and **machine learning**, with an emphasis on uncertainty, reproducibility, and decision-useful models:
-
-- **Spatial machine learning for geotechnical site characterization** — calibrated, uncertainty-aware predictions of subsurface properties from large-scale borehole databases.
-- **LLM-assisted knowledge graphs for civil infrastructure** — turning heterogeneous inspection records (PDF, tabular, image) into structured, queryable knowledge.
+**Taking ML into real field domains.**
+- **Geotechnical risk screening** — calibrated, uncertainty-aware subsurface-property predictions from a **0.5M-record national borehole database**, trained on HPC and served behind an API. *(preprint below)*
+- **Infrastructure knowledge graphs** — an LLM + **Graph-RAG** pipeline (Gemini/OpenAI · JanusGraph · Qdrant) that turns heterogeneous inspection records (PDF, tabular, image) into a queryable knowledge graph, with a web UI on top.
 - **Electricity-market forecasting** — the econometric value of weather information for day-ahead markets under high renewable penetration.
 
-`formal methods / verification` · `multi-agent systems` · `Bayesian / uncertainty-aware ML` · `geospatial modeling` · `reproducible research`
+I care about the whole path: **real data → honest uncertainty → systems people actually use.**
+
+`agentic & multi-agent AI` · `LLM tool-calling (Gemini · LangGraph)` · `full-stack + cloud-native` · `uncertainty-aware ML` · `formal verification (TLA⁺)`
 
 ---
 
@@ -34,9 +34,15 @@ Alongside this, I work across **civil / urban informatics** and **machine learni
 
 ---
 
-## 🛠️ Engineering
+## 🛠️ Stack
 
-I build the full stack around my research — typed, tested, and reproducible.
+**GenAI & Agents**
+
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat&logo=qdrant&logoColor=white)
+&nbsp;+ LangGraph · Graph-RAG · LoRA/DPO fine-tuning
 
 **Languages**
 
@@ -61,14 +67,16 @@ I build the full stack around my research — typed, tested, and reproducible.
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
-**Infra & Tooling**
+**Cloud & Infra**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+&nbsp;+ HPC (SLURM / PBS · Apptainer)
 
-Also day-to-day: `TLA⁺` for formal specification & model checking, HPC job scheduling (SLURM / PBS), `Hydra` configs, `uv`, `Ruff`, `pytest`.
+Also: `TLA⁺` for formal specification & model checking, `Hydra`, `uv`, `Ruff`, `pytest`.
 
 ---
 
@@ -82,4 +90,4 @@ Also day-to-day: `TLA⁺` for formal specification & model checking, HPC job sch
 
 ---
 
-<sub>Research that runs in production.</sub>
+<sub>AI that leaves the lab and runs in the real world.</sub>
