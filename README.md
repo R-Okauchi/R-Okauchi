@@ -38,10 +38,7 @@ I care about the whole path: **real data → honest uncertainty → systems peop
 
 **GenAI & Agents**
 
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat&logo=qdrant&logoColor=white)
-&nbsp;+ ReAct agents · multi-agent coordination · Graph-RAG · LoRA/DPO fine-tuning
+`multi-agent systems` · `ReAct agents · tool-calling` · `Graph-RAG` · `LoRA / DPO fine-tuning`
 
 **Languages**
 
