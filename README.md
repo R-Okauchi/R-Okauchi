@@ -67,7 +67,6 @@ I work across the whole pipeline — from data and models to the software that s
 
 ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
 ![MuJoCo](https://img.shields.io/badge/MuJoCo-2E7D32?style=flat)
-&nbsp;+ operasim · gRPC
 
 **Cloud & Infra**
 
