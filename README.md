@@ -9,16 +9,16 @@ I take AI out of the lab and into the field. I build **multi-agent systems and L
 ## 🤖 What I build
 
 **Agentic systems for the physical world — my main focus.**
-I'm building [**CAP — Cooperative Agent Protocol**](https://github.com/cooperative-agent-protocol) *(open-sourcing soon)*: a multi-agent platform that lets fleets of autonomous construction machines cooperate on a worksite. An LLM **site agent** (Google **Gemini** / Claude) turns natural-language goals into work orders; per-machine agents (**LangGraph + LangChain** tool-calling over a deterministic safety layer) carry them out; and the coordination protocol is **formally verified in TLA⁺** and validated in a **ROS2 physics simulator** before it ever touches real equipment. A genuinely new application domain, built to production standards — full-stack **FastAPI + React**, containerized, and deployed on **Kubernetes**.
+I'm building [**CAP — Cooperative Agent Protocol**](https://github.com/cooperative-agent-protocol) *(open-sourcing soon)*: a multi-agent platform that lets fleets of autonomous construction machines cooperate on a worksite. An LLM **site agent** decomposes a natural-language goal into work orders (ReAct-style); per-machine **agents** execute them over the CAP protocol (gRPC) on top of **ROS2**, driving a **MuJoCo / operasim physics simulator** before anything touches real equipment. The protocol itself ships as a versioned spec + SDK with a **conformance test suite** and **TLA⁺-checked** state machines. A genuinely new application domain, built to production standards — full-stack **FastAPI + React**, containerized, and deployed on **Kubernetes**.
 
 **Taking ML into real field domains.**
 - **Geotechnical risk screening** — calibrated, uncertainty-aware subsurface-property predictions from a **0.5M-record national borehole database**, trained on HPC and served behind an API. *(preprint below)*
-- **Infrastructure knowledge graphs** — an LLM + **Graph-RAG** pipeline (Gemini/OpenAI · JanusGraph · Qdrant) that turns heterogeneous inspection records (PDF, tabular, image) into a queryable knowledge graph, with a web UI on top.
+- **Infrastructure knowledge graphs** — an LLM + **Graph-RAG** pipeline (JanusGraph · Qdrant) that turns heterogeneous inspection records (PDF, tabular, image) into a queryable knowledge graph, with a web UI on top.
 - **Electricity-market forecasting** — the econometric value of weather information for day-ahead markets under high renewable penetration.
 
 I care about the whole path: **real data → honest uncertainty → systems people actually use.**
 
-`agentic & multi-agent AI` · `LLM tool-calling (Gemini · LangGraph)` · `full-stack + cloud-native` · `uncertainty-aware ML` · `formal verification (TLA⁺)`
+`agentic & multi-agent AI` · `LLM agents (ReAct · tool-calling)` · `full-stack + cloud-native` · `uncertainty-aware ML` · `formal verification (TLA⁺)`
 
 ---
 
@@ -38,11 +38,10 @@ I care about the whole path: **real data → honest uncertainty → systems peop
 
 **GenAI & Agents**
 
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat&logo=qdrant&logoColor=white)
-&nbsp;+ LangGraph · Graph-RAG · LoRA/DPO fine-tuning
+&nbsp;+ ReAct agents · multi-agent coordination · Graph-RAG · LoRA/DPO fine-tuning
 
 **Languages**
 
@@ -66,6 +65,12 @@ I care about the whole path: **real data → honest uncertainty → systems peop
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+
+**Robotics & Sim**
+
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
+![MuJoCo](https://img.shields.io/badge/MuJoCo-2E7D32?style=flat)
+&nbsp;+ operasim · gRPC
 
 **Cloud & Infra**
 
