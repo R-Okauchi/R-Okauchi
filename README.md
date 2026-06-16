@@ -9,7 +9,7 @@ I work on **multi-agent systems and applied ML** for civil and infrastructure pr
 ## 🤖 What I build
 
 **Multi-agent systems for autonomous construction machinery — my main focus.**
-I'm building [**CAP — Cooperative Agent Protocol**](https://github.com/cooperative-agent-protocol) *(open-sourcing soon)*: a multi-agent platform that lets fleets of autonomous construction machines cooperate on a worksite. An LLM **site agent** decomposes a natural-language goal into work orders (ReAct-style); per-machine **agents** execute them over the CAP protocol (gRPC) on top of **ROS2**, driving a **MuJoCo / operasim physics simulator** before anything touches real equipment. The protocol ships as a versioned spec + SDK with a **conformance test suite** and **TLA⁺-checked** state machines, and the runtime is full-stack (**FastAPI + React**), containerized, and deployed on **Kubernetes**.
+I'm building [**CAP — Cooperative Agent Protocol**](https://github.com/cooperative-agent-protocol) *(open-sourcing soon)*: the protocol that lets fleets of autonomous construction machines coordinate on a worksite — doing for machines what the spoken call-outs of a human crew do, keeping everyone in sync and clear of each other. A **site agent** (ReAct loop) breaks a natural-language goal into work orders; **machine agents** (also ReAct loops) carry them out; and **CAP** is what they coordinate over — work orders, reservations, and hand-offs — defined as a versioned spec + SDK (gRPC) with a **conformance test suite** and **TLA⁺-checked** state machines. The whole thing runs in a physics simulator before it touches real equipment.
 
 **Applied ML on real-world data.**
 - **Geotechnical risk screening** — calibrated, uncertainty-aware subsurface-property predictions from a **0.5M-record national borehole database**, trained on HPC and served behind an API. *(preprint below)*
@@ -62,12 +62,6 @@ I work across the whole pipeline — from data and models to the software that s
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-
-**Robotics & Sim**
-
-![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
-![MuJoCo](https://img.shields.io/badge/MuJoCo-2E7D32?style=flat)
-&nbsp;+ operasim · gRPC
 
 **Cloud & Infra**
 
