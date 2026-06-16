@@ -1,8 +1,10 @@
 # Hi, I'm Ryota Okauchi (岡内 亮太) 👋
 
-**Graduate researcher in civil engineering @ The University of Tokyo** — working where **formal methods and machine learning meet civil & urban infrastructure**.
+**Graduate researcher in civil engineering @ The University of Tokyo**
 
-I like research that actually ships: from uncertainty-aware spatial models to production-grade web apps and HPC pipelines.
+_Previously Project Manager · Algorithm & Software Engineer at AKARI Inc. (燈株式会社)_
+
+Working where **formal methods and machine learning meet civil & urban infrastructure** — research that actually ships, from uncertainty-aware spatial models to production-grade web apps and HPC pipelines.
 
 ---
 
