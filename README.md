@@ -1,22 +1,22 @@
-# Ryota Okauchi (岡内 亮太) 👋
+# Ryota Okauchi (岡内 亮太)
 
-**Master's student, Civil Engineering @ The University of Tokyo** · ex-AKARI Inc. (PM / Algorithm & Software Engineer)
+**Master's student, Civil Engineering, The University of Tokyo.** Previously PM / algorithm & software engineer at AKARI Inc.
 
-I take AI out of the lab and into the field. I build **multi-agent systems and LLM/agent pipelines** for real, physical, high-stakes domains — autonomous construction machinery, national infrastructure data, energy markets — and ship them end-to-end, from messy data to production APIs, web apps, and HPC.
+I work on **multi-agent systems and applied ML** for civil and infrastructure problems — autonomous construction machinery, geotechnical data, energy markets — and build the full stack that runs them, from data pipelines to APIs and web apps.
 
 ---
 
 ## 🤖 What I build
 
-**Agentic systems for the physical world — my main focus.**
-I'm building [**CAP — Cooperative Agent Protocol**](https://github.com/cooperative-agent-protocol) *(open-sourcing soon)*: a multi-agent platform that lets fleets of autonomous construction machines cooperate on a worksite. An LLM **site agent** decomposes a natural-language goal into work orders (ReAct-style); per-machine **agents** execute them over the CAP protocol (gRPC) on top of **ROS2**, driving a **MuJoCo / operasim physics simulator** before anything touches real equipment. The protocol itself ships as a versioned spec + SDK with a **conformance test suite** and **TLA⁺-checked** state machines. A genuinely new application domain, built to production standards — full-stack **FastAPI + React**, containerized, and deployed on **Kubernetes**.
+**Multi-agent systems for autonomous construction machinery — my main focus.**
+I'm building [**CAP — Cooperative Agent Protocol**](https://github.com/cooperative-agent-protocol) *(open-sourcing soon)*: a multi-agent platform that lets fleets of autonomous construction machines cooperate on a worksite. An LLM **site agent** decomposes a natural-language goal into work orders (ReAct-style); per-machine **agents** execute them over the CAP protocol (gRPC) on top of **ROS2**, driving a **MuJoCo / operasim physics simulator** before anything touches real equipment. The protocol ships as a versioned spec + SDK with a **conformance test suite** and **TLA⁺-checked** state machines, and the runtime is full-stack (**FastAPI + React**), containerized, and deployed on **Kubernetes**.
 
-**Taking ML into real field domains.**
+**Applied ML on real-world data.**
 - **Geotechnical risk screening** — calibrated, uncertainty-aware subsurface-property predictions from a **0.5M-record national borehole database**, trained on HPC and served behind an API. *(preprint below)*
 - **Infrastructure knowledge graphs** — an LLM + **Graph-RAG** pipeline (JanusGraph · Qdrant) that turns heterogeneous inspection records (PDF, tabular, image) into a queryable knowledge graph, with a web UI on top.
 - **Electricity-market forecasting** — the econometric value of weather information for day-ahead markets under high renewable penetration.
 
-I care about the whole path: **real data → honest uncertainty → systems people actually use.**
+I work across the whole pipeline — from data and models to the software that serves them.
 
 `agentic & multi-agent AI` · `LLM agents (ReAct · tool-calling)` · `full-stack + cloud-native` · `uncertainty-aware ML` · `formal verification (TLA⁺)`
 
@@ -89,7 +89,3 @@ Also: `TLA⁺` for formal specification & model checking, `Hydra`, `uv`, `Ruff`,
 - 🔬 **researchmap** — https://researchmap.jp/r-okauchi
 - 🆔 **ORCID** — https://orcid.org/0009-0001-5391-7133
 - 💼 **LinkedIn** — https://www.linkedin.com/in/ryota-okauchi-65625a401
-
----
-
-<sub>AI that leaves the lab and runs in the real world.</sub>
