@@ -28,6 +28,10 @@ I work across the whole pipeline — from data and models to the software that s
   ![Preprint](https://img.shields.io/badge/Preprint-SSRN-B31B1B?style=flat) · under review at *Computers and Geotechnics*
   R. Okauchi, P.-J. Chun · [SSRN preprint](https://ssrn.com/abstract=6842366)
 
+- **Forecast-Skill Scarcity, Price Floors, and the Value of Weather Information in Solar-Saturated Electricity Markets**
+  ![Preprint](https://img.shields.io/badge/Preprint-SSRN-B31B1B?style=flat)
+  R. Okauchi, P.-J. Chun · [SSRN preprint](https://ssrn.com/abstract=7067947)
+
 - **Point-cloud segmentation with synthetic data from virtual environments, and its real-world applicability**
   ![Award](https://img.shields.io/badge/Award-JSCE-F4B400?style=flat) **AI & DX Encouragement Award** (AI・DX奨励賞) · *AI・データサイエンス論文集*, Vol. 6(2), pp. 51–61, 2025
   R. Okauchi, P.-J. Chun · 仮想環境を利用した点群セグメンテーションモデルの作成と実環境適用性の評価 · [DOI](https://doi.org/10.11532/jsceiii.6.2_51)
