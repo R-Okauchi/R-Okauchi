@@ -29,7 +29,7 @@ I work across the whole pipeline — from data and models to the software that s
   R. Okauchi, P.-J. Chun · [SSRN preprint](https://ssrn.com/abstract=6842366)
 
 - **Forecast-Skill Scarcity, Price Floors, and the Value of Weather Information in Solar-Saturated Electricity Markets**
-  ![Preprint](https://img.shields.io/badge/Preprint-SSRN-B31B1B?style=flat)
+  ![Preprint](https://img.shields.io/badge/Preprint-SSRN-B31B1B?style=flat) · under review at *Energy Economics*
   R. Okauchi, P.-J. Chun · [SSRN preprint](https://ssrn.com/abstract=7067947)
 
 - **Point-cloud segmentation with synthetic data from virtual environments, and its real-world applicability**
