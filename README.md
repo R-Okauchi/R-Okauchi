@@ -24,6 +24,10 @@ I work across the whole pipeline — from data and models to the software that s
 
 ## 📄 Selected work
 
+- **CAP: A Model-Checked Coordination Protocol for Shared-Resource Handover in Autonomous Earthwork Fleets**
+  ![Preprint](https://img.shields.io/badge/Preprint-SSRN-B31B1B?style=flat)
+  P.-J. Chun, R. Okauchi · [SSRN preprint](https://ssrn.com/abstract=7083100)
+
 - **A calibrated regional screening framework for SPT *N*-values from public borehole records under strict spatial cross-validation**
   ![Preprint](https://img.shields.io/badge/Preprint-SSRN-B31B1B?style=flat) · under review at *Computers and Geotechnics*
   R. Okauchi, P.-J. Chun · [SSRN preprint](https://ssrn.com/abstract=6842366)
