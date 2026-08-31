@@ -12,7 +12,7 @@ I work on **multi-agent systems and applied ML** for civil and infrastructure pr
 I'm building [**CAP — Cooperative Agent Protocol**](https://github.com/cooperative-agent-protocol) *(open-sourcing soon)*: the protocol that lets fleets of autonomous construction machines coordinate on a worksite — doing for machines what the spoken call-outs of a human crew do, keeping everyone in sync and clear of each other. A **site agent** (ReAct loop) breaks a natural-language goal into work orders; **machine agents** (also ReAct loops) carry them out; and **CAP** is what they coordinate over — work orders, reservations, and hand-offs — defined as a versioned spec + SDK (gRPC) with a **conformance test suite** and **TLA⁺-checked** state machines. The whole thing runs in a physics simulator before it touches real equipment.
 
 **Applied ML on real-world data.**
-- **Geotechnical risk screening** — calibrated, uncertainty-aware subsurface-property predictions from a **0.5M-record national borehole database**, trained on HPC and served behind an API. *(preprint below)*
+- **Geotechnical risk screening** — calibrated, uncertainty-aware subsurface-property predictions from a **0.5M-record national borehole database**, trained on HPC and served behind an API. *(published in Computers and Geotechnics — below)*
 - **Infrastructure knowledge graphs** — an LLM + **Graph-RAG** pipeline (JanusGraph · Qdrant) that turns heterogeneous inspection records (PDF, tabular, image) into a queryable knowledge graph, with a web UI on top.
 - **Electricity-market forecasting** — the econometric value of weather information for day-ahead markets under high renewable penetration.
 
@@ -24,13 +24,13 @@ I work across the whole pipeline — from data and models to the software that s
 
 ## 📄 Selected work
 
+- **A calibrated regional screening framework for SPT *N*-values from public borehole records under strict spatial cross-validation**
+  ![Published](https://img.shields.io/badge/Published-Computers%20and%20Geotechnics-1A7F37?style=flat)
+  R. Okauchi, P.-J. Chun · *Computers and Geotechnics*, Vol. 201, 108535, 2027 · [DOI](https://doi.org/10.1016/j.compgeo.2026.108535) · [preprint](https://ssrn.com/abstract=6842366)
+
 - **CAP: A Model-Checked Coordination Protocol for Shared-Resource Handover in Autonomous Earthwork Fleets**
   ![Preprint](https://img.shields.io/badge/Preprint-SSRN-B31B1B?style=flat)
   P.-J. Chun, R. Okauchi · [SSRN preprint](https://ssrn.com/abstract=7083100)
-
-- **A calibrated regional screening framework for SPT *N*-values from public borehole records under strict spatial cross-validation**
-  ![Preprint](https://img.shields.io/badge/Preprint-SSRN-B31B1B?style=flat) · under review at *Computers and Geotechnics*
-  R. Okauchi, P.-J. Chun · [SSRN preprint](https://ssrn.com/abstract=6842366)
 
 - **Forecast-Skill Scarcity, Price Floors, and the Value of Weather Information in Solar-Saturated Electricity Markets**
   ![Preprint](https://img.shields.io/badge/Preprint-SSRN-B31B1B?style=flat) · under review at *Energy Economics*
